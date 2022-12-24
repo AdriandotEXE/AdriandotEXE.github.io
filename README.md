@@ -1,2 +1,2 @@
 # Adrian's Data Science Portfolio
-#A Data Science Portfolio
+#Type AdriandotEXE.github.io to visit website
