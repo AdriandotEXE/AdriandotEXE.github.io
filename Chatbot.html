@@ -7,31 +7,7 @@
 
 <!-- Back Button -->
 
-
-<script>
-addNewURL(url) {
-    if (this.currentURL) {
-        this.backwardStack.push(this.currentURL);
-    }
-    this.currentURL = url;
-}
-goBackward() {
-    if (!this.backwardStack.length) {
-        return;
-    }
-
-    this.forwardStack.push(this.currentURL);
-    this.currentURL = this.backwardStack.pop();
-}
-goForward() {
-    if (!this.forwardStack.length) {
-        return;
-    }
-
-    this.backwardStack.push(this.currentURL);
-    this.currentURL = this.forwardStack.pop();
-}
-</script>
+<form method="post"><input type="button" value="BACK" /></form>
 	
 <style type="text/css">
 	
@@ -5382,10 +5358,10 @@ span.bp3-icon:empty{
   content:"⌄"; }
 
 .bp3-icon-caret-left::before{
-  content:"〈"; }
+  content:"〈"; }
 
 .bp3-icon-caret-right::before{
-  content:"〉"; }
+  content:"〉"; }
 
 .bp3-icon-caret-up::before{
   content:"⌃"; }
