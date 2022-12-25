@@ -9,15 +9,29 @@
 
 
 <script>
-function goBack()
-  {
-  window.history.back()
-  }
-</script>
+addNewURL(url) {
+    if (this.currentURL) {
+        this.backwardStack.push(this.currentURL);
+    }
+    this.currentURL = url;
+}
+goBackward() {
+    if (!this.backwardStack.length) {
+        return;
+    }
 
-<form>
- <input type="button" value="Go back!" onclick="history.back()">
-</form>	
+    this.forwardStack.push(this.currentURL);
+    this.currentURL = this.backwardStack.pop();
+}
+goForward() {
+    if (!this.forwardStack.length) {
+        return;
+    }
+
+    this.backwardStack.push(this.currentURL);
+    this.currentURL = this.forwardStack.pop();
+}
+</script>
 	
 <style type="text/css">
 	
