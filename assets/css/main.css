@@ -2248,8 +2248,8 @@ input, select, textarea {
 
 			#main > section.one {
 				background-color: #81918E;
-				position:absolute;
-				top:10px;
+				height: auto;
+				max-width: 100%;
 				background-image: url("../../images/banner.jpg");
 			}
 
