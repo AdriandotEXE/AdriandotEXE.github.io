@@ -3,9 +3,9 @@
 <head><meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Emotional Facial Expression Recognition CNN</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Emotional Facial Expression Recognition</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 
-
+<a href="index.html">Home</a>
 
 
 <style type="text/css">
@@ -57,6 +57,19 @@ span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 
 .highlight .s1 { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Single */
 .highlight .ss { color: var(--jp-mirror-editor-string-color) } /* Literal.String.Symbol */
 .highlight .il { color: var(--jp-mirror-editor-number-color) } /* Literal.Number.Integer.Long */
+  </style>
+<style type="text/css">
+    /*This file contains any manual css for this page that needs to override the global styles.
+This is only required when different pages style the same element differently. This is just
+a hack to deal with our current css styles and no new styling should be added in this file.*/
+
+#ipython-main-app {
+    position: relative;
+}
+#jupyter-main-app {
+    position: relative;
+}
+
   </style>
 
 
@@ -5356,10 +5369,10 @@ span.bp3-icon:empty{
   content:"⌄"; }
 
 .bp3-icon-caret-left::before{
-  content:"〈"; }
+  content:"〈"; }
 
 .bp3-icon-caret-right::before{
-  content:"〉"; }
+  content:"〉"; }
 
 .bp3-icon-caret-up::before{
   content:"⌃"; }
@@ -14597,7 +14610,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 align="center">  Emotional Facial Expression Recognition</h2>
+<h2 align="center"> Emotional Facial Expression Recognition</h2>
 
 </div>
 </div>
@@ -14609,18 +14622,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="All-Necessary-Libraries">All Necessary Libraries<a class="anchor-link" href="#All-Necessary-Libraries">&#182;</a></h3>
+<h3 id="Importing-All-Necessary-Libraries">Importing All Necessary Libraries<a class="anchor-link" href="#Importing-All-Necessary-Libraries">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -14725,6 +14727,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 class="
 jp-needs-light-background
 "
+alt="Image_graph"
 >
 </div>
 
@@ -14863,7 +14866,7 @@ Found 7178 images belonging to 7 classes.
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Creation-of-CNN-Model">Creation of CNN Model<a class="anchor-link" href="#Creation-of-CNN-Model">&#182;</a></h3>
+<h3 id="Creating-the-CNN-Model">Creating the CNN Model<a class="anchor-link" href="#Creating-the-CNN-Model">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15028,29 +15031,7 @@ _________________________________________________________________
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-
-</div>
-</div>
-</div>
-</div>
-<div class="jp-Cell jp-MarkdownCell jp-Notebook-cell">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Training-and-Evaluating-Model">Training and Evaluating Model<a class="anchor-link" href="#Training-and-Evaluating-Model">&#182;</a></h3>
+<h3 id="Training-and-Evaluating-the-Model">Training and Evaluating the Model<a class="anchor-link" href="#Training-and-Evaluating-the-Model">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15108,7 +15089,7 @@ _________________________________________________________________
 class="
 jp-needs-light-background
 "
->
+alt="Graphs">
 </div>
 
 </div>
@@ -15155,7 +15136,7 @@ Wall time: 6min 51s
 </div>
 <div class="jp-InputArea jp-Cell-inputArea"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="Representing-Model-as-a-JSON-String">Representing Model as a JSON String<a class="anchor-link" href="#Representing-Model-as-a-JSON-String">&#182;</a></h3>
+<h3 id="Representing-the-Model-as-a-JSON-String">Representing the Model as a JSON String<a class="anchor-link" href="#Representing-the-Model-as-a-JSON-String">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -15177,25 +15158,10 @@ Wall time: 6min 51s
 </div>
 </div>
 
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
-</div>
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 </body>
-<footer><p><a href="index.html">Back to my portal</a></p></footer>
+
+
 
 
 
