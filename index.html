@@ -184,7 +184,9 @@
 								<h2>About Me</h2>
 							</header>
 
-							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
+							<a href="#" class="image featured" style="display: flex; justify-content: center;">
+								<img src="images/pic08.jpg" alt="" style="max-width: 500px; width: 100%; height: auto;" />
+							</a>
 
 							<p>I studied Forensic Science at Loyola University of Chicago and minored in Chemistry. I obtained IBM Data Science Certifications and Google's Python Automation Certification. All images on this page were created using AI technology.&nbsp; &nbsp;</p>
 
@@ -199,20 +201,46 @@
 								<h2>Contact</h2>
 							</header>
 
-							<p>If you wish to contanct me, please fill out the form below.&nbsp; &nbsp;&nbsp;</p>
-
-							<form method="post" action="AdriandotEXE.github.io">
-								<div class="row">
-									<div class="col-6 col-12-mobile"><input type="text" name="name" placeholder="Name" /></div>
-									<div class="col-6 col-12-mobile"><input type="text" name="email" placeholder="Email" /></div>
-									<div class="col-12">
-										<textarea name="message" placeholder="Message"></textarea>
-									</div>
-									<div class="col-12">
-										<input type="submit" value="Send Message" />
-									</div>
-								</div>
-							</form>
+							<p>If you wish to contanct me, please use the email adrian.t.jr.93@gmail.com.&nbsp; &nbsp;&nbsp;</p>
+							<style>
+								#contact {
+									background-color: #e8edec;
+									padding: 4em 0;
+									text-align: center;
+									min-height: 100vh; /* Adjust the height as needed */
+								}
+					
+								#contact h2 {
+									margin-bottom: 2em;
+								}
+					
+								#contact p {
+									margin-bottom: 4em;
+								}
+					
+								#contact .row {
+									justify-content: center;
+								}
+					
+								#contact .col-6 {
+									width: 50%;
+								}
+					
+								#contact input[type="text"],
+								#contact textarea {
+									width: 100%;
+									margin-bottom: 2em;
+								}
+					
+								#contact input[type="submit"] {
+									background-color: #81918e;
+									color: white;
+									padding: 1em 2em;
+									border: none;
+									cursor: pointer;
+									font-size: 1em;
+								}
+							</style>
 
 						</div>
 					</section>
@@ -225,7 +253,7 @@
 				<!-- Copyright -->
 					<ul class="copyright">
 						<li>&copy; Adrian's Data Science Portf. All rights reserved.</li>
-						<li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						
 					</ul>
 
 			</div>
